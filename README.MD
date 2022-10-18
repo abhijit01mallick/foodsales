@@ -27,4 +27,4 @@ python manage.py makemigrations
 python manage.py migrate
 
 #to runserver:
-pyhton manage.py runserver
+python manage.py runserver
