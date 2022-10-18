@@ -1,8 +1,6 @@
-Recommended to use Python version > 3.9
+#Recommended to use Python version >= 3.9
 
-
-See the ENGINE setting below on how to specify other database types. This example is for PostgreSQL:
-
+#See the below ENGINE setting below on how to specify database types. This example is for PostgreSQL:
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
@@ -15,14 +13,13 @@ DATABASES = {
 }
 
 
-Activate environment using this command;
+#Activate environment using this command;
 conda activate <env_name>
 
 
-To install dependencies:
+#To install dependencies:
 pip install -r requirements.txt
 
-Then run below commands:
 #to make migrations:
 python manage.py makemigrations
 
